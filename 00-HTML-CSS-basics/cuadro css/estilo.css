@@ -1,0 +1,91 @@
+.principal { 
+
+	height: 60px;
+	width: 80%;
+	float: left;
+	background: grey;
+	text-align: center;
+	margin-left: 10%;
+	margin-bottom:  2%;
+	border-radius: 10px;
+	margin: left;
+}
+.caja {
+	width: 100%;
+	float: left; 
+	height: auto;
+	background-color: #424242;
+}
+
+nav, aside { 
+
+	height: 450px;
+	width: 15%;
+	float: left;
+	background: grey; 
+	text-align: center;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	border-radius: 10px;
+	margin-right: 7.5%;
+}
+article {
+
+	 -->
+	width: 80%;
+	height: 40%;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #A4A4A4;
+}
+section {
+
+	background: blue;
+	float:  left; 
+	text-align: center;
+
+}
+
+.piefinal {
+	height: 100px;
+	float: left;
+	width: 80%;
+	background: grey;
+	text-align: center;
+	margin-left: 10%;
+	border-radius: 10px;
+	margin-bottom: 1%;
+	margin-top: -8%;
+}
+.interior{
+	float: left;
+	background: grey;
+	width: 30%;
+	height: 450px;
+	text-align: center;
+	margin-left: 2%;
+	border-radius: 10px;
+}
+.cabezita {
+
+	background: #A4A4A4;
+	height: 18%;
+	width: 100%;
+	text-align: center;
+	margin-top: 5%;
+	border-radius: 10px;
+	
+	margin: right;
+	br: 5%;
+}
+
+.piesito {
+
+	margin-left: auto;
+	margin-right: auto;
+	background: #A4A4A4;
+	height: 18%;
+	width: 100%;
+	text-align: center;
+	border-radius: 10px;
+}
