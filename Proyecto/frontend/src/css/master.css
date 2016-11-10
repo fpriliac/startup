@@ -1,0 +1,263 @@
+@import 'https://fonts.googleapis.com/css?family=Coiny';
+@import 'https://fonts.googleapis.com/css?family=Nunito';
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../img/bannerBody.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+/* MODAL STYLESHEET */
+
+.modalContainer {
+    display: block; 
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 100px; 
+
+    width: 100%; 
+    overflow: auto;
+}
+
+
+.modalContainer form {
+    padding: 15px;
+    color: white;
+    font-family: 'Coiny';
+}
+.modalContainer legend {
+    font-size: 24px;
+    font-family: 'Coiny';
+    color: white;
+    border-bottom: 1px solid white;
+}
+.close {
+    color: white;
+    font-family: 'Coiny';
+    margin-left: 97%;
+}
+
+.close:hover,
+.close:focus {
+    color: #aaaaaa;
+    font-family: 'Coiny';
+    text-decoration: none;
+    cursor: pointer;
+}
+.form {
+    display: block;
+    margin: 2px;
+    background-image: url("../img/modal.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.scrollable {
+    display: inline-block;
+
+}
+textarea {
+    width: 20%;
+    height: 50px;
+}
+
+/* WEB STYLESHEET */
+
+.container{
+    margin-bottom: 30px;
+}
+
+img{
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 5px;
+}
+.headerContainer{
+    background-image: url("../img/bannerHeader.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 78%;
+    display: flex;
+    background-color: #e0e0eb;
+    font-family: 'Coiny';
+    padding: 20px 35px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+.headerContent{
+    display: flex;
+    width: 100%;
+}
+.headerMenu{
+    flex-basis: 20%;
+    display: inline-flex;
+    flex-direction: column
+}
+a{
+    font-size: 35px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    overflow: auto;
+}
+a.active{
+    color: #111111;
+    text-decoration: underline;
+}
+a.menuEnabled{
+    color: #111111;
+}
+.disabled{
+   pointer-events: none;
+   cursor: default;
+}
+a.menuDisabled{
+    color: gray;
+}
+.mainContainer{
+    display: flex;
+    margin-bottom: 30px;
+}
+.row{
+    display: flex;
+}
+.mainMovies{
+    flex-basis: 75%;
+    padding: 20px 35px;
+}
+.mainMoviesContainer{
+    display: flex;
+    margin-bottom: 30px;
+}
+.movie-row-content{
+    width: 100%;
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+   -webkit-flex-wrap: wrap;
+   flex-wrap: wrap;
+   -webkit-flex-flow: row wrap;
+   flex-flow: row wrap;
+   -webkit-align-content: flex-end;
+   align-content: flex-end;
+}
+.moviesContainer{
+    margin: 0 auto;
+    margin-bottom: 10px;
+    padding: 20px 35px;
+}
+.movieText{
+    text-align:center;
+    font-family: 'Nunito';
+    text-shadow: 1px 1px #000000;
+    color: white;
+}
+.sponsor{
+    color: brown;
+    font-weight: bold;
+}
+.adContainer{
+    flex-basis: 25%;
+    padding: 20px 35px;
+}
+.adContainer > a img{
+    padding: 1px;
+    width: 100%;
+    min-height: 100%;
+}
+.footerContainer{
+    display: flex;
+    padding: 20px 35px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.footerContent{
+    flex-basis: 25%;
+    display: inline-flex;
+    flex-direction: column;
+    font-family: 'Nunito';
+    text-shadow: 1px 1px #000000;
+    color: white;
+}
+.footerContent ul{
+    list-style-type: none;
+    margin: 0 auto;
+    margin-right: 50px;
+    display: inline-block;
+    float: left;
+}
+.copyrightContainer{
+    position: relative;
+}
+.copyrightContent{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'Nunito';
+    text-shadow: 1px 1px #000000;
+    color: white;
+}
+.moviesContainer{
+    margin-bottom: 15px;
+}
+.filterContainer{
+    padding: 20px 35px;
+    margin-bottom: 30px;
+}
+.mainBar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.mainBar ul{
+    display: flex;
+    list-style-type: none;
+    padding: 2px;
+    margin: 2px;
+    flex-basis: 25%;
+}
+.mainBar li{
+    padding: 2px;
+    margin: 2px;
+}
+.mainBar a{
+    padding: 2px;
+    text-decoration: none;
+    font-family: 'Nunito';
+    text-shadow: 1px 1px #000000;
+    color: white;
+    font-size: 15px;
+    margin: 0 auto;
+}
+.searchContent{
+    align-self: flex-end;
+    padding: 5px;
+}
+.searchContent input{
+    margin-left: 420px;
+    font-size: 20px;
+    padding: 2px;
+    width: 250px;
+}
+.searchContent select{
+    font-size: 20px;
+    padding: 2px;
+    margin-left: 5px;
+}
